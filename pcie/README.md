@@ -13,6 +13,10 @@ PCIe
 
 ["Security | DMA | Hacking" by Ulf Frisk](http://blog.frizk.net/) [blog]
 
+[Ulf Frisk](https://twitter.com/ulffrisk) [twitter]
+
+[Dmytro Oleksiuk](https://twitter.com/d_olex) [twitter]
+
 [2019: "Thunderclap: Exploring Vulnerabilities in Operating System IOMMU Protection via DMA from Untrustworthy Peripherals"](http://thunderclap.io/thunderclap-paper-ndss2019.pdf) [paper]
 
 [2018: "PRACTICAL DMA ATTACK ON WINDOWS 10" by Jean-Christophe Delaunay](https://www.synacktiv.com/posts/pentest/practical-dma-attack-on-windows-10.html) [article]
