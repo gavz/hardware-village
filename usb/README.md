@@ -2,7 +2,10 @@
 
 Materials related to the "Introduction to USB hacking" talk. For the most part covers only USB 2 (no USB 3+ or USB Type C) on Linux. Presented at PHDays 2018 in Moscow and Chaos Constructions 2018 in Saint Petersburg.
 
-Slides: [PHDays 2018](https://docs.google.com/presentation/d/1S1yNeehSXOvtC_QmtqETSF3frlMLgka6v3XQVupJXTQ/edit?usp=sharing), [Chaos Constructions 2018](https://docs.google.com/presentation/d/1C0Mfh9kcHQvqaLd6hbx6ilM_blYwg05YVW5rRS6Z8yQ/edit?usp=sharing).
+Slides:
+[PHDays 2018](https://docs.google.com/presentation/d/1S1yNeehSXOvtC_QmtqETSF3frlMLgka6v3XQVupJXTQ/edit?usp=sharing),
+[Chaos Constructions 2018](https://docs.google.com/presentation/d/1C0Mfh9kcHQvqaLd6hbx6ilM_blYwg05YVW5rRS6Z8yQ/edit?usp=sharing),
+[PHDays 2019](https://docs.google.com/presentation/d/1BP1wNSa0MvMdlZuRURw9VsWC198IgrtDFujgI2-2Fto/edit?usp=sharing).
 
 Demos: [here](https://github.com/xairy/hardware-village/blob/master/usb/DEMOS.md).
 
