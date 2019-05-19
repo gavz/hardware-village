@@ -1,6 +1,10 @@
 PCIe
 ====
 
+Materials related to the "Introduction to PCIe and DMA attacks" talk. Presented at PHDays 2019 in Moscow.
+
+Slides: PHDays 2019 (TODO: link).
+
 ## Overview
 
 [2017: "Practical introduction to PCI Express with FPGAs" by Michal Husejko and John Evans](https://indico.cern.ch/event/121654/attachments/68430/98164/Practical_introduction_to_PCI_Express_with_FPGAs_-_Extended.pdf) [slides]
