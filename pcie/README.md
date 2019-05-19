@@ -52,3 +52,26 @@ http://thunderclap.io/
 https://github.com/ufrisk/pcileech
 
 https://github.com/Cr4sh/s6_pcie_microblaze
+
+
+## Unsorted
+
+https://www.youtube.com/watch?v=OD2Wxe4RLeU
+
+https://www.defcon.org/images/defcon-22/dc-22-presentations/Fitzpatrick-Crabill/DEFCON-22-Joe-FitzPatrick-Miles-Crabill-NSA-Playset-PCIe.pdf
+
+https://www.notebookcheck.net/eGPU-Two-PCI-e-lanes-no-problem.266658.0.html
+
+https://www.tomshardware.com/reviews/thunderbolt-performance-z77a-gd80,3205-4.html
+
+https://www.intel.com/content/dam/doc/technology-brief/thunderbolt-technology-brief.pdf
+
+http://blog.frizk.net/2016/12/filevault-password-retrieval.html
+
+https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-934.pdf
+
+https://github.com/Cr4sh/s6_pcie_microblaze/blob/master/docs/PCI-E%20Security%20-%20Slides%20%5BRUS%5D.pdf
+
+https://electronics.stackexchange.com/questions/208767/does-pcie-hotplug-actually-work-in-practice
+
+https://thunderbolttechnology.net/security/Thunderbolt%203%20and%20Security.pdf
