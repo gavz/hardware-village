@@ -9,6 +9,10 @@ PCIe
 
 2015: "Overview of PCI(e) Subsystem" by Kishon Vijay Abraham [[slides](http://events17.linuxfoundation.org/sites/events/files/slides/Overview_Of_Pci_Subsystem.pdf)] [[video](https://www.youtube.com/watch?v=uccPR6X8vy8)]
 
+[2015: "Does PCIe hotplug actually work in practice?"](https://electronics.stackexchange.com/questions/208767/does-pcie-hotplug-actually-work-in-practice) [stackoverflow]
+
+[2012: "Thunderbolt Technology"](https://www.intel.com/content/dam/doc/technology-brief/thunderbolt-technology-brief.pdf) [article]
+
 ## DMA
 
 ["Security | DMA | Hacking" by Ulf Frisk](http://blog.frizk.net/) [blog]
@@ -17,6 +21,8 @@ PCIe
 
 [Dmytro Oleksiuk](https://twitter.com/d_olex) [twitter]
 
+[2019: "Exploitation from malicious PCI Express peripherals" by Colin Rothwell](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-934.pdf) [thesis]
+
 [2019: "Thunderclap: Exploring Vulnerabilities in Operating System IOMMU Protection via DMA from Untrustworthy Peripherals"](http://thunderclap.io/thunderclap-paper-ndss2019.pdf) [paper]
 
 [2018: "PRACTICAL DMA ATTACK ON WINDOWS 10" by Jean-Christophe Delaunay](https://www.synacktiv.com/posts/pentest/practical-dma-attack-on-windows-10.html) [article]
@@ -24,6 +30,8 @@ PCIe
 [2018: "Kernel DMA Protection for Thunderbolt 3"](https://docs.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) [article]
 
 [2018: "BitLocker Countermeasures"](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-countermeasures) [article]
+
+[2018: "Thunderbolt 3 and Security on Microsoft Windows® 10 Operating system"](https://thunderbolttechnology.net/security/Thunderbolt%203%20and%20Security.pdf) [article]
 
 2017: "Public FPGA based DMA Attacking" by Ulf Frisk [[slides](https://github.com/ufrisk/presentations/blob/master/34C3-Ulf-Frisk-Public-FPGA-Based-DMA-Attacking.pdf)] [[video](https://www.youtube.com/watch?v=XcEYkcwbRX8)]
 
@@ -37,11 +45,15 @@ PCIe
 
 [2017: "The True Story of Windows 10 and the DMA-protection" by Sami Laiho](http://blog.win-fu.com/2017/02/the-true-story-of-windows-10-and-dma.html) [article]
 
+[2017: "PCI EXPRESS: ВЗГЛЯД DIY-РАЗРАБОТЧИКА И ХАКЕРА" by Dmytro Oleksiuk](file:///Users/andreyknvl/Downloads/PCI-E%20Security%20-%20Slides%20[RUS].pdf) [slides]
+
 [2016: "Bypassing IOMMU Protection against I/O Attacks"](https://hal.archives-ouvertes.fr/hal-01419962/document) [paper]
 
 2016: "Direct Memory Attack the Kernel" by Ulf Frisk [[slides](https://github.com/ufrisk/presentations/blob/master/DEFCON-24-Ulf-Frisk-Direct-Memory-Attack-the-Kernel-Final.pdf)] [[video](https://www.youtube.com/watch?v=fXthwl6ShOg)]
 
 [2015: "Breaking UEFI security with software DMA attacks" by Dmytro Oleksiuk](http://blog.cr4.sh/2015/09/breaking-uefi-security-with-software.html) [article]
+
+2015: "NSA Playset: PCIe" by Joe FitzPatrick and Miles Crabill [[video](https://www.youtube.com/watch?v=OD2Wxe4RLeU)] [[slides](https://www.defcon.org/images/defcon-22/dc-22-presentations/Fitzpatrick-Crabill/DEFCON-22-Joe-FitzPatrick-Miles-Crabill-NSA-Playset-PCIe.pdf)]
 
 2013: "Funderbolt: Adventures in Thunderbolt DMA Attacks" by Russ Sevinsky [[slides](https://media.blackhat.com/us-13/US-13-Sevinsky-Funderbolt-Adventures-in-Thunderbolt-DMA-Attacks-Slides.pdf)] [[video](https://www.youtube.com/watch?v=V9TKP_ZIur8)]
 
@@ -54,28 +66,3 @@ https://github.com/Cr4sh/s6_pcie_microblaze
 http://thunderclap.io/
 
 https://github.com/NSAPlayset/SLOTSCREAMER
-
-
-## Unsorted
-
-2015: "NSA Playset: PCIe" by Joe FitzPatrick and Miles Crabill [[video](https://www.youtube.com/watch?v=OD2Wxe4RLeU)] [[slides](https://www.defcon.org/images/defcon-22/dc-22-presentations/Fitzpatrick-Crabill/DEFCON-22-Joe-FitzPatrick-Miles-Crabill-NSA-Playset-PCIe.pdf)]
-
-
-https://www.notebookcheck.net/eGPU-Two-PCI-e-lanes-no-problem.266658.0.html
-
-https://www.tomshardware.com/reviews/thunderbolt-performance-z77a-gd80,3205-4.html
-
-https://www.intel.com/content/dam/doc/technology-brief/thunderbolt-technology-brief.pdf
-
-http://blog.frizk.net/2016/12/filevault-password-retrieval.html
-
-https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-934.pdf
-
-https://github.com/Cr4sh/s6_pcie_microblaze/blob/master/docs/PCI-E%20Security%20-%20Slides%20%5BRUS%5D.pdf
-
-https://electronics.stackexchange.com/questions/208767/does-pcie-hotplug-actually-work-in-practice
-
-
-[2018: "Thunderbolt 3 and Security on Microsoft Windows® 10 Operating system"](https://thunderbolttechnology.net/security/Thunderbolt%203%20and%20Security.pdf) [article]
-
-
