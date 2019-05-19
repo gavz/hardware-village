@@ -75,3 +75,5 @@ https://github.com/Cr4sh/s6_pcie_microblaze/blob/master/docs/PCI-E%20Security%20
 https://electronics.stackexchange.com/questions/208767/does-pcie-hotplug-actually-work-in-practice
 
 https://thunderbolttechnology.net/security/Thunderbolt%203%20and%20Security.pdf
+
+https://github.com/NSAPlayset/SLOTSCREAMER
