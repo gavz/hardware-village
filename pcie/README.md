@@ -47,18 +47,19 @@ PCIe
 
 ## Tools
 
-http://thunderclap.io/
-
 https://github.com/ufrisk/pcileech
 
 https://github.com/Cr4sh/s6_pcie_microblaze
 
+http://thunderclap.io/
+
+https://github.com/NSAPlayset/SLOTSCREAMER
+
 
 ## Unsorted
 
-https://www.youtube.com/watch?v=OD2Wxe4RLeU
+2015: "NSA Playset: PCIe" by Joe FitzPatrick and Miles Crabill [[video](https://www.youtube.com/watch?v=OD2Wxe4RLeU)] [[slides](https://www.defcon.org/images/defcon-22/dc-22-presentations/Fitzpatrick-Crabill/DEFCON-22-Joe-FitzPatrick-Miles-Crabill-NSA-Playset-PCIe.pdf)]
 
-https://www.defcon.org/images/defcon-22/dc-22-presentations/Fitzpatrick-Crabill/DEFCON-22-Joe-FitzPatrick-Miles-Crabill-NSA-Playset-PCIe.pdf
 
 https://www.notebookcheck.net/eGPU-Two-PCI-e-lanes-no-problem.266658.0.html
 
@@ -74,6 +75,7 @@ https://github.com/Cr4sh/s6_pcie_microblaze/blob/master/docs/PCI-E%20Security%20
 
 https://electronics.stackexchange.com/questions/208767/does-pcie-hotplug-actually-work-in-practice
 
-https://thunderbolttechnology.net/security/Thunderbolt%203%20and%20Security.pdf
 
-https://github.com/NSAPlayset/SLOTSCREAMER
+[2018: "Thunderbolt 3 and Security on Microsoft Windows® 10 Operating system"](https://thunderbolttechnology.net/security/Thunderbolt%203%20and%20Security.pdf) [article]
+
+
