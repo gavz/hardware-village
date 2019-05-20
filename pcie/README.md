@@ -3,7 +3,7 @@ PCIe
 
 Materials related to the "Introduction to PCIe and DMA attacks" talk. Presented at PHDays 2019 in Moscow.
 
-Slides: PHDays 2019 (TODO: link).
+Slides: [PHDays 2019](https://docs.google.com/presentation/d/1Hn9RGrp2DEuAqOfytizPtCm98qti0T5tlUb6jFs-068/edit?usp=sharing).
 
 ## Overview
 
