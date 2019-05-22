@@ -49,7 +49,7 @@ Slides: [PHDays 2019](https://docs.google.com/presentation/d/1Hn9RGrp2DEuAqOfyti
 
 [2017: "The True Story of Windows 10 and the DMA-protection" by Sami Laiho](http://blog.win-fu.com/2017/02/the-true-story-of-windows-10-and-dma.html) [article]
 
-[2017: "PCI EXPRESS: ВЗГЛЯД DIY-РАЗРАБОТЧИКА И ХАКЕРА" by Dmytro Oleksiuk](file:///Users/andreyknvl/Downloads/PCI-E%20Security%20-%20Slides%20[RUS].pdf) [slides]
+[2017: "PCI EXPRESS: ВЗГЛЯД DIY-РАЗРАБОТЧИКА И ХАКЕРА" by Dmytro Oleksiuk](https://github.com/Cr4sh/s6_pcie_microblaze/blob/master/docs/PCI-E%20Security%20-%20Slides%20%5BRUS%5D.pdf) [slides]
 
 [2016: "Bypassing IOMMU Protection against I/O Attacks"](https://hal.archives-ouvertes.fr/hal-01419962/document) [paper]
 
