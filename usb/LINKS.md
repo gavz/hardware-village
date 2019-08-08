@@ -444,3 +444,27 @@ https://github.com/basic4/USB-Rubber-Ducky-Clone-using-Arduino-Leonardo-Beetle
 https://github.com/jerwuqu/ardoducky
 
 https://github.com/Seytonic/Duckduino-microSD
+
+http://www.jodeit.org/research/DeepSec2009_USB_Device_Drivers.pdf
+
+http://processors.wiki.ti.com/index.php/USB_General_Guide_Linux_v3.8
+
+https://github.com/usb-tools/ViewSB
+
+https://github.com/tenable/router_badusb
+
+https://www.youtube.com/watch?time_continue=3&v=y_bbX_Ch1Z8
+
+https://greatscottgadgets.com/2019/06-26-making-usb-accessible-teardown-2019/
+
+https://davejingtian.org/2019/07/17/usb-fuzzing-a-usb-perspective/
+
+https://www.chromium.org/chromium-os/twinkie
+
+https://github.com/snovvcrash/usbrip
+
+https://usbc.tf/
+
+https://www.crowdsupply.com/newae/phywhisperer-usb
+
+https://rfc1149.net/blog/2013/03/05/what-is-the-difference-between-devttyusbx-and-devttyacmx/
