@@ -41,3 +41,7 @@ https://github.com/nfc-tools/miLazyCracker
 https://smartlockpicking.com/slides/Confidence_A_2018_Practical_Guide_To_Hacking_RFID_NFC.pdf
 
 https://nullcon.net/website/archives/pdf/bangalore-2019/Unlocking%20secrets%20of%20the%20Proxmark3%20RDV4.0.pdf
+
+https://media.defcon.org/DEF%20CON%2027/DEF%20CON%2027%20presentations/DEFCON-27-Christopher-Wade-Tag-side-attacks-against-NFC.pdf
+
+https://www.youtube.com/watch?v=7GFhgv5jfZk
