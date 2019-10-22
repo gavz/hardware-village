@@ -25,6 +25,10 @@ Slides: [PHDays 2019](https://docs.google.com/presentation/d/1Hn9RGrp2DEuAqOfyti
 
 [Dmytro Oleksiuk](https://twitter.com/d_olex) [twitter]
 
+[2019: "PicoDMA - DMA Attacks at your fingertips" by Ben Blaxill and Joel Sandin](https://i.blackhat.com/USA-19/Wednesday/us-19-Sandin-PicoDMA-DMA-Attacks-At-Your-Fingertips.pdf) [slides]
+
+[2019: "Prevent DMA attacks from untrusted devices" by Lu Baolu](https://linuxplumbersconf.org/event/4/contributions/414/attachments/393/636/LPC2019-Prevent_DMA_attacks_from_untrusted_devices.pdf) [slides]
+
 [2019: "Exploitation from malicious PCI Express peripherals" by Colin Rothwell](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-934.pdf) [thesis]
 
 [2019: "Thunderclap: Exploring Vulnerabilities in Operating System IOMMU Protection via DMA from Untrustworthy Peripherals"](http://thunderclap.io/thunderclap-paper-ndss2019.pdf) [paper]
