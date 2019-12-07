@@ -25,6 +25,8 @@ Slides: [PHDays 2019](https://docs.google.com/presentation/d/1Hn9RGrp2DEuAqOfyti
 
 [Dmytro Oleksiuk](https://twitter.com/d_olex) [twitter]
 
+[2019: "IOMMU and DMA attacks" by Jean-Christophe Delaunay](https://www.synacktiv.com/ressources/IOMMU_and_DMA_attacks_presentation_16_9.pdf) [slides]
+
 [2019: "PicoDMA - DMA Attacks at your fingertips" by Ben Blaxill and Joel Sandin](https://i.blackhat.com/USA-19/Wednesday/us-19-Sandin-PicoDMA-DMA-Attacks-At-Your-Fingertips.pdf) [slides]
 
 [2019: "Prevent DMA attacks from untrusted devices" by Lu Baolu](https://linuxplumbersconf.org/event/4/contributions/414/attachments/393/636/LPC2019-Prevent_DMA_attacks_from_untrusted_devices.pdf) [slides]
