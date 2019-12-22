@@ -502,3 +502,5 @@ https://github.com/hacking-usb
 https://blog.seekintoo.com/affordable-usb-attack-device-part-1.html
 
 https://carvesystems.com/news/command-injection-with-usb-peripherals/
+
+https://keyvilboard.nl/en/
