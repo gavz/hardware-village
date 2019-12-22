@@ -1,6 +1,6 @@
 # USB
 
-Materials related to the "Introduction to USB hacking" talk. For the most part covers only USB 2 (no USB 3+ or USB Type C) on Linux. Presented at PHDays 2018 in Moscow and Chaos Constructions 2018 in Saint Petersburg.
+Materials related to the "Introduction to USB hacking" talk. For the most part covers only USB 2 (no USB 3+ or USB Type C) on Linux. Presented at PHDays 2018/2019 in Moscow and Chaos Constructions 2018 in Saint Petersburg.
 
 Slides:
 [PHDays 2018](https://docs.google.com/presentation/d/1S1yNeehSXOvtC_QmtqETSF3frlMLgka6v3XQVupJXTQ/edit?usp=sharing),
