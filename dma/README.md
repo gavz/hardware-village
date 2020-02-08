@@ -1,5 +1,5 @@
-PCIe
-====
+DMA
+===
 
 Materials related to the "Introduction to PCIe and DMA attacks" talk. Presented at PHDays 2019 in Moscow.
 
@@ -24,6 +24,10 @@ Slides: [PHDays 2019](https://docs.google.com/presentation/d/1Hn9RGrp2DEuAqOfyti
 [Ulf Frisk](https://twitter.com/ulffrisk) [twitter]
 
 [Dmytro Oleksiuk](https://twitter.com/d_olex) [twitter]
+
+[2020: "IOMMU-resistant DMA attacks" by Gil Kupfer](http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-get.cgi/2018/MSC/MSC-2018-21.pdf) [thesis]
+
+[2020: "DIRECT MEMORY ACCESS ATTACKS: A WALK DOWN MEMORY LANE"](https://eclypsium.com/wp-content/uploads/2020/01/DMA-Attacks-A-Walk-Down-Memory-Lane.pdf) [article]
 
 [2019: "IOMMU and DMA attacks" by Jean-Christophe Delaunay](https://www.synacktiv.com/ressources/IOMMU_and_DMA_attacks_presentation_16_9.pdf) [slides]
 
@@ -57,6 +61,8 @@ Slides: [PHDays 2019](https://docs.google.com/presentation/d/1Hn9RGrp2DEuAqOfyti
 
 [2017: "PCI EXPRESS: ВЗГЛЯД DIY-РАЗРАБОТЧИКА И ХАКЕРА" by Dmytro Oleksiuk](https://github.com/Cr4sh/s6_pcie_microblaze/blob/master/docs/PCI-E%20Security%20-%20Slides%20%5BRUS%5D.pdf) [slides]
 
+2017: "Taking DMA Attacks to the Next Level" by Anna Trikalinou and Dan Lake [[slides](https://www.blackhat.com/docs/us-17/wednesday/us-17-Trikalinou-Taking-DMA-Attacks-To-The-Next-Level-How-To-Do-Arbitrary-Memory-Reads-Writes-In-A-Live-And-Unmodified-System-Using-A-Rogue-Memory-Controller.pdf)] [[video](https://www.youtube.com/watch?v=QeIPcA8zsHk)]
+
 [2016: "Bypassing IOMMU Protection against I/O Attacks"](https://hal.archives-ouvertes.fr/hal-01419962/document) [paper]
 
 2016: "Direct Memory Attack the Kernel" by Ulf Frisk [[slides](https://github.com/ufrisk/presentations/blob/master/DEFCON-24-Ulf-Frisk-Direct-Memory-Attack-the-Kernel-Final.pdf)] [[video](https://www.youtube.com/watch?v=fXthwl6ShOg)]
@@ -67,6 +73,8 @@ Slides: [PHDays 2019](https://docs.google.com/presentation/d/1Hn9RGrp2DEuAqOfyti
 
 2013: "Funderbolt: Adventures in Thunderbolt DMA Attacks" by Russ Sevinsky [[slides](https://media.blackhat.com/us-13/US-13-Sevinsky-Funderbolt-Adventures-in-Thunderbolt-DMA-Attacks-Slides.pdf)] [[video](https://www.youtube.com/watch?v=V9TKP_ZIur8)]
 
+[2010: "Memory Forensics over the IEEE 1394 Interface" by Freddie Witherden](https://freddie.witherden.org/pages/ieee-1394-forensics.pdf) [paper]
+
 ## Tools
 
 https://github.com/ufrisk/pcileech
@@ -76,3 +84,5 @@ https://github.com/Cr4sh/s6_pcie_microblaze
 http://thunderclap.io/
 
 https://github.com/NSAPlayset/SLOTSCREAMER
+
+https://github.com/carmaa/inception
