@@ -1,2 +1,2 @@
-hardware-village
+Hardware Village
 ================
