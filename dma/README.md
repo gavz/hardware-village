@@ -17,7 +17,7 @@ Slides: [PHDays 2019](https://docs.google.com/presentation/d/1Hn9RGrp2DEuAqOfyti
 
 [2012: "Thunderbolt Technology"](https://www.intel.com/content/dam/doc/technology-brief/thunderbolt-technology-brief.pdf) [article]
 
-## DMA
+## Attacks
 
 ["Security | DMA | Hacking" by Ulf Frisk](http://blog.frizk.net/) [blog]
 
