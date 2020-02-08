@@ -504,3 +504,9 @@ https://blog.seekintoo.com/affordable-usb-attack-device-part-1.html
 https://carvesystems.com/news/command-injection-with-usb-peripherals/
 
 https://keyvilboard.nl/en/
+
+https://twitter.com/mame82
+
+https://github.com/joelsernamoreno/EvilCrow-Cable
+
+https://mobile.twitter.com/mame82/status/1221093466463182849?s=19
