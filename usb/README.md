@@ -1,6 +1,6 @@
 # USB
 
-Materials related to the "Introduction to USB hacking" talk. For the most part covers only USB 2 (no USB 3+ or USB Type C) on Linux. Presented at PHDays 2018/2019 in Moscow and Chaos Constructions 2018 in Saint Petersburg.
+Materials for the "Introduction to USB hacking" talk. Mostly covers USB 2 on Linux.
 
 Slides:
 [PHDays 2018](https://docs.google.com/presentation/d/1S1yNeehSXOvtC_QmtqETSF3frlMLgka6v3XQVupJXTQ/edit?usp=sharing),
@@ -55,106 +55,106 @@ Links: [here](https://github.com/xairy/hardware-village/blob/master/usb/LINKS.md
 
 ## Agenda
 
-This is the ultimate plan, variations are possible.
+This is the ultimate plan, different iterations of the talk cover different parts.
 
 ### Part 1: USB 101
 
-Slides:
 * Follow [USB 101](http://www.cypress.com/file/134171/download)
 
 #### Demos
 
 1. Looking at syslog (`dmesg`) when a new USB device is connected.
 2. Checking connected devices and their descriptors with `lsusb`.
-3. Sniffing USB (LS/FS) packets with a logic analyzer.
-4. Sniffing USB with usbmon (manually and with wireshark).
-5. Sending USB control messages to a hub with USB PPPS support.
-6. Sending USB control messages to a Logitech web camera.
+3. Sniffing and decoding USB packets with a logic analyzer.
+4. Sniffing USB via usbmon with wireshark.
 
-### Part 2: USB attack surface
+### Part 2: Linux USB subsystem
 
-Slides:
-* Attack surface (physical, firmware, BadUSB, remote)
-* Original BadUSB
-* USBKill
+* Linux USB stack
+* udev rules
+* USB sysfs
+* usbfs
+* Communicating with USB devices
+* libusb
+* pyusb
 
-### Part 3: Consumer ready BadUSB
+### Part 3: USB attack surface
 
-Slides:
-* BadUSB: consumer ready vs self designed
-* BadUSB: microcontroller based vs Linux based
+* Host -> device: rogue firmware
+* Device -> host: electrical, firmware, logical
+* Logical: generic BadUSB
+* Host -> device -> host: original BadUSB
+* Physical: USBKill
+* Remote: USB/IP, USBAnywhere
+
+### Part 4: BadUSB
+
+* BadUSB: consumer-ready vs self-designed
+* BadUSB: microcontroller-based vs Linux-based
+* Facedancer and Linux-based shown later
 
 #### Demos
+
+Consumer-ready:
 
 1. Rubber Ducky.
 2. Bash Bunny.
 3. Lan Turtle.
 
-### Part 4: Microcontroller based BadUSB
-
-#### Demos
+Microcontroller-based:
 
 1. Teensy 3.2.
 2. ATtiny55 board.
 3. CJMCU BadUSB.
 4. Cactus WHID.
 
-### Part 5 Facedancer
+### Part 5: Facedancer
 
-Slides:
 * Facedacer software overview
-* Facedancer21/GreatFET ONE/NXP LPC4330 Xplorer overview.
+* Facedancer21 and GreatFET One
 
 #### Demos
 
 1. Emulating USB keyboard with Facedancer.
 2. USB reconnaissance with Facedancer.
-3. Fuzzing USB with Facedancer.
 
-### Part 6 Linux gadget subsystem
+### Part 6: Linux USB Gadget subsystem
 
-Slides:
-* Linux USB stack
-* udev rules
-* USB sysfs
-* usbfs
-* Linux USB gadget subsystem
-* Legacy gadget interface
+* Linux USB Gadget subsystem
+* Legacy gadget modules 
 * ConfigFS + FunctionFS
 * GadgetFS
-* Kernel gadget interface
+* Raw Gadget
 
 #### Demos
 
-1. Emulating mass storage drive through legacy gadget interface on Raspberry Pi Zero.
+1. Emulating mass storage drive through legacy gadget module on Raspberry Pi Zero.
 2. Emulating keyboard with ConfigFS + FunctionFS on Raspberry Pi Zero.
 3. Emulating keyboard through GadgetFS on Raspberry Pi Zero.
-4. Emulating keyboard through the kernel gadget interface on Raspberry Pi Zero.
-5. Emulating keyboard with an Android device.
+4. Emulating keyboard through Raw Gadget on Raspberry Pi Zero.
+5. Emulating keyboard from an Android device.
 
 ### Part 7: USB fuzzing
 
-Slides:
 * Fuzzing, hardware vs virtual
 * vUSBf, QEMU and usbredir
-* syzkaller, Linux gadget subsystem and dummy_hcd
+* syzkaller, Raw Gadget and dummy_hcd
 
 #### Demos
 
-0. Fuzzing with Facedancer already demoed in part 6.
-1. Fuzzing USB with vUSBf.
-2. Fuzzing USB with syzkaller.
-3. Crashing a Linux machine via a bug in a USB driver.
-4. Crashing a Windows machine via a bug in a USB driver.
+1. Fuzzing USB with Facedancer.
+2. Fuzzing USB with vUSBf.
+3. Fuzzing USB with syzkaller.
+4. Crashing a Linux machine via a bug in a USB driver.
+5. Crashing a Windows machine via a bug in a USB driver.
 
 ### Part 8: USB sniffing
 
-Slides:
 * Hardware vs software sniffers
 * "Low-level" vs "high-level" sniffers
 * Beagle analyzers
+* USBProxy, USBProxy 'Nouveau'
 * OpenVizsla
-* Facedancer and Linux gadget subsystem based sniffers
 
 #### Demos
 
@@ -162,5 +162,4 @@ Slides:
 1. Sniffing with a logic analyzer already demoed in part 1.
 2. Sniffing USB with USBProxy on BeagleBone Black.
 3. Sniffing USB with USBProxy 'Nouveau' with Facedancer.
-4. USB MitM with two Facedacer boards.
-5. Sniffing USB with OpenVizsla.
+4. Sniffing USB with OpenVizsla.

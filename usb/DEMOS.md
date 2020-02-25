@@ -52,7 +52,7 @@ usb.transfer_type == 2
 ```
 
 
-## Part 3
+## Part 4
 
 ### Rubber Ducky
 
@@ -91,9 +91,6 @@ Q ENTER
 ```
 
 https://github.com/hak5/bashbunny-payloads/tree/master/payloads/library/phishing/Captiveportal
-
-
-## Part 4
 
 ### Teensy 3.2
 
@@ -162,6 +159,47 @@ Based on [github.com/whid-injector/WHID](https://github.com/whid-injector/WHID).
 
 ## Part 5
 
+### Emulating USB keyboard with Facedancer21
+
+To flash: https://github.com/travisgoodspeed/goodfet#firmware
+
+``` bash
+git clone https://github.com/ktemkin/Facedancer.git
+# Edit Facedancer/USBKeyboard.py and remove "import greatfet"
+export BACKEND=goodfet
+./facedancer-keyboard.py
+```
+
+``` bash
+git clone https://github.com/travisgoodspeed/goodfet.git
+git clone https://github.com/xairy/facedancer-utils.git
+cp ./facedancer-utils/*.py ./goodfet/client/
+cd ./goodfet/
+```
+
+### USB reconnaissance with Facedancer21
+
+``` bash
+git clone https://github.com/nccgroup/umap2.git
+cd ./umap2/
+pip2 install --user .
+```
+
+Device driver scanning:
+``` bash
+umap2scan -P fd:/dev/ttyUSB0
+```
+
+OS fingerprinting:
+``` bash
+git clone https://github.com/nccgroup/umap.git
+cd ./umap/
+python3 umap.py -P /dev/ttyUSB0 -O
+```
+
+
+## Part 6
+
 ### Raspberry Pi Zero
 
 #### Setup
@@ -173,7 +211,7 @@ sync
 reboot
 ```
 
-####  Emulating mass storage drive through legacy gadget interface
+#### Emulating mass storage drive through legacy gadget module
 
 Based on [Raspberry Pi Zero OTG Mode](https://gist.github.com/gbaman/50b6cca61dd1c3f88f41).
 
@@ -275,45 +313,7 @@ modprobe -r gadgetfs
 ```
 
 
-## Part 6
-
-### Emulating USB keyboard with Facedancer21
-
-To flash: https://github.com/travisgoodspeed/goodfet#firmware
-
-``` bash
-git clone https://github.com/ktemkin/Facedancer.git
-# Edit Facedancer/USBKeyboard.py and remove "import greatfet"
-export BACKEND=goodfet
-./facedancer-keyboard.py
-```
-
-``` bash
-git clone https://github.com/travisgoodspeed/goodfet.git
-git clone https://github.com/xairy/facedancer-utils.git
-cp ./facedancer-utils/*.py ./goodfet/client/
-cd ./goodfet/
-```
-
-### USB reconnaissance with Facedancer21
-
-``` bash
-git clone https://github.com/nccgroup/umap2.git
-cd ./umap2/
-pip2 install --user .
-```
-
-Device driver scanning:
-``` bash
-umap2scan -P fd:/dev/ttyUSB0
-```
-
-OS fingerprinting:
-``` bash
-git clone https://github.com/nccgroup/umap.git
-cd ./umap/
-python3 umap.py -P /dev/ttyUSB0 -O
-```
+## Part 7
 
 ### Fuzzing USB with Facedancer21
 
