@@ -14,6 +14,12 @@ Links: [here](https://github.com/xairy/hardware-village/blob/master/usb/LINKS.md
 
 ## Hardware
 
+[Facedancer21](http://goodfet.sourceforge.net/hardware/facedancer21/) (85$)
+
+[GreatFET One](https://greatscottgadgets.com/greatfet/one/) (110$)
+
+[OpenVizsla](http://openvizsla.org/) (140$)
+
 [Rubber Ducky](https://hakshop.com/products/usb-rubber-ducky-deluxe) (45$)
 
 [Bash Bunny](https://hakshop.com/products/bash-bunny) (100$)
@@ -23,10 +29,6 @@ Links: [here](https://github.com/xairy/hardware-village/blob/master/usb/LINKS.md
 [USB Armory](https://inversepath.com/usbarmory) (150$)
 
 [USB Kill](https://usbkill.com/) (90$)
-
-[Facedancer21](http://goodfet.sourceforge.net/hardware/facedancer21/) (85$)
-
-[NXP LPC4330-Xplorer Board](https://www.nxp.com/support/developer-resources/nxp-designs/lpc4330-xplorer-board:OM13027) (60$)
 
 [Teensy 3.2](https://www.pjrc.com/store/teensy32.html) (20$)
 
@@ -49,8 +51,6 @@ Links: [here](https://github.com/xairy/hardware-village/blob/master/usb/LINKS.md
 [EC3380-AB](http://www.bplus.com.tw/Adapter/EC3380-AB.html) (180$)
 
 [AirDrive Keylogger Max](http://www.keelog.com/hardware-keylogger/) (100$)
-
-[OpenVizsla](http://openvizsla.org/) (140$)
 
 
 ## Agenda
