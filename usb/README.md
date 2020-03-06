@@ -1,18 +1,20 @@
 # USB
 
-Materials for the "Introduction to USB hacking" talk. Mostly covers USB 2 on Linux.
+Materials for the "Introduction to USB hacking" talk.
 
 Slides:
 [PHDays 2018](https://docs.google.com/presentation/d/1S1yNeehSXOvtC_QmtqETSF3frlMLgka6v3XQVupJXTQ/edit?usp=sharing),
 [Chaos Constructions 2018](https://docs.google.com/presentation/d/1C0Mfh9kcHQvqaLd6hbx6ilM_blYwg05YVW5rRS6Z8yQ/edit?usp=sharing),
 [PHDays 2019](https://docs.google.com/presentation/d/1BP1wNSa0MvMdlZuRURw9VsWC198IgrtDFujgI2-2Fto/edit?usp=sharing).
 
-Demos: [here](https://github.com/xairy/hardware-village/blob/master/usb/DEMOS.md).
+Snippets for some of the demos can be found [here](https://github.com/xairy/hardware-village/blob/master/usb/DEMOS.md).
 
-Links: [here](https://github.com/xairy/hardware-village/blob/master/usb/LINKS.md).
+A collection of USB-related links is [here](https://github.com/xairy/hardware-village/blob/master/usb/LINKS.md).
 
 
 ## Hardware
+
+Demostrated during the talk.
 
 [Facedancer21](http://goodfet.sourceforge.net/hardware/facedancer21/) (85$)
 
@@ -55,7 +57,7 @@ Links: [here](https://github.com/xairy/hardware-village/blob/master/usb/LINKS.md
 
 ## Agenda
 
-This is the ultimate plan, different iterations of the talk cover different parts.
+This is the full agenda, each iteration of the talk covers different parts.
 
 ### Part 1: USB 101
 
